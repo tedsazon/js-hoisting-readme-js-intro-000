@@ -14,15 +14,14 @@ function crazy() {
   var thisIsCrazy = () => {
     console.log("hey!!!")
 
-
-
-
   }
 }
 
 function sayMyName() {
-  var name = "Kristin"; {
+  var name = "Kristin";
+  function sayMy() {
     console.log(name);
-  var name = "Cricky";
+  sayMy();
+
   }
 }
