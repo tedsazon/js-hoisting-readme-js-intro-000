@@ -7,25 +7,20 @@ function callMe() {
   return lyric;
 
 }
-thisIsCrazy();
+
 function crazy() {
   var thisIsCrazy = function (){
     console.log("hey!!!")
-
-
-
   }
 }
-  }
-}
+thisIsCrazy();
 
-sayMy();
+
 
 function sayMyName() {
   var name = "Kristin";
   function sayMy() {
     console.log(name);
-
-
   }
 }
+sayMy();
