@@ -5,18 +5,18 @@ function callMe() {
   console.log("but here's my number..");
   console.log("so call me");
   return lyric;
-  
+
 }
 
 
 function crazy() {
   // fix the code in here:
-  var thisIsCrazy = function (){
+  var thisIsCrazy = () => {
     console.log("hey!!!")
 
-  thisIsCrazy();
 
-  
+
+
   }
 }
 var name = "Cricky";
@@ -26,6 +26,6 @@ function sayMyName() {
 
   function sayMy() {
     console.log(name);
-    
+
   }
 }
