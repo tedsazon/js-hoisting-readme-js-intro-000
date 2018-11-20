@@ -8,24 +8,21 @@ function callMe() {
 
 }
 
+thisIsCrazy();
 
 function crazy() {
-  // fix the code in here:
-  thisIsCrazy();
-
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
 }
 
+sayMy();
+
 function sayMyName() {
-  // fix the code in here:
-  var name = "Cricky";
-
-  sayMy();
-
+  var name = "Kristin";
   function sayMy() {
     console.log(name);
-    var name = "Kristin";
+
   }
 }
+var name = "Cricky";
